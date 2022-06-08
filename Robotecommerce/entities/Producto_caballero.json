@@ -1,0 +1,9 @@
+{
+  "id": "233e5659-c136-4bf3-8d14-9135fe0a3096",
+  "name": "Producto_caballero",
+  "isOverridable": true,
+  "isEnum": true,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

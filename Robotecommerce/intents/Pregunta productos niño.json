@@ -1,0 +1,55 @@
+{
+  "id": "a1224b36-51fb-4bbb-ad60-1d9687d5e914",
+  "name": "Pregunta productos niño",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "aa075ad1-6e75-4519-b834-fd542cdd2c06",
+          "name": "nino",
+          "required": true,
+          "dataType": "@Producto_nino",
+          "value": "$nino",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "indicar el producto de niño"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "claro el producto que me indica lo tenemos, tenemos en distintos tamaños y colores"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

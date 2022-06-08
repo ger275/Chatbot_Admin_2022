@@ -1,0 +1,9 @@
+{
+  "id": "53e5010f-1d25-450c-9920-84764ada1f5c",
+  "name": "Producto_dama",
+  "isOverridable": true,
+  "isEnum": true,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

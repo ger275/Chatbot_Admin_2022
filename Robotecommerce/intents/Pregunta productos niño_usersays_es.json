@@ -1,0 +1,41 @@
+[
+  {
+    "id": "d7211416-e1a4-4f89-b792-863357f879c0",
+    "data": [
+      {
+        "text": "precio producto de nino",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ad0e7c87-24a9-4236-9acb-d9395f650850",
+    "data": [
+      {
+        "text": "precio de un producto de nino",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "94bd054c-c01d-485a-987e-6e4126ea3481",
+    "data": [
+      {
+        "text": "quisiera precio de producto para nino",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

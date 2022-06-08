@@ -1,0 +1,69 @@
+{
+  "id": "2eae3bdf-93b0-4320-b20a-ed48d254f306",
+  "name": "Pregunta productos caballero",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3d1a6a9c-b4c6-477e-8142-b7afdc61fe09",
+          "name": "last-name",
+          "required": false,
+          "dataType": "@sys.last-name",
+          "value": "$last-name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5ebea7f4-0d3f-4147-967c-2941a2ad948e",
+          "name": "caballero",
+          "required": true,
+          "dataType": "@Producto_caballero",
+          "value": "$caballero",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "por favor indique el producto que desea saber el precio"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "con gusto, el producto que desea lo tenemos en la tienda"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

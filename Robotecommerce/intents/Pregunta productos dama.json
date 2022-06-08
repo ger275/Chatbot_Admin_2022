@@ -1,0 +1,55 @@
+{
+  "id": "74b9eea5-a2bb-4c0d-acbe-770f90502c4a",
+  "name": "Pregunta productos dama",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2d353cac-db90-4f68-9599-4bceea4e3f29",
+          "name": "dama",
+          "required": true,
+          "dataType": "@Producto_dama",
+          "value": "$dama",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "ingrese el producto que desea consultar de dama"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "claro, el producto por el cual consulta lo tenemos dentro de nuestra tienda"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

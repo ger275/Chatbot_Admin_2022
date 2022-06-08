@@ -1,0 +1,9 @@
+{
+  "id": "4f5c28b7-cc13-4e52-87ad-fdcc12eeab9a",
+  "name": "Producto_nino",
+  "isOverridable": true,
+  "isEnum": true,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

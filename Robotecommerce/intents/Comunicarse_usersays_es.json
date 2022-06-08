@@ -1,0 +1,28 @@
+[
+  {
+    "id": "c1e661e1-5234-46a1-9ddc-c740018fde6a",
+    "data": [
+      {
+        "text": "donde puedo obtener mas informacion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3e69df5d-24dd-4998-ba10-79cebfdcdc34",
+    "data": [
+      {
+        "text": "Como puedo contactarme para mas informacion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]
